@@ -9,7 +9,7 @@ it("renders correctly", () => {
     expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <div
-        class="sc-bczRLJ cdkMFu"
+        class="sc-bdnylx kIfBCo"
         color="#ffffff"
         font-size="36px"
         font-style="normal"

@@ -7,7 +7,7 @@ it("renders link correctly", () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <a
-        class="sc-bczRLJ hvpckB"
+        class="sc-bdnylx gStteT"
         href="https://energy8.io"
       >
         Link
