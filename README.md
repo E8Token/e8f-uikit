@@ -1,90 +1,40 @@
+# ⚡ Energy8 UIkit
 
-<p align="center">
-  <a href="https://www.chromatic.com/">
-    <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
-  </a>
-</p>
+[![Version](https://img.shields.io/npm/v/@energy8/uikit)](https://www.npmjs.com/package/@energy8/uikit) [![Size](https://img.shields.io/bundlephobia/min/@energy8/uikit)](https://www.npmjs.com/package/@energy8/uikit)
 
-<h1 align="center">
-  Chromatic's Intro to Storybook React template
-</h1>
+Energy8 UIkit is a set of React components. It also contains a theme file for purple and pink mode.
 
-This template ships with the main React and Storybook configuration files you'll need to get up and running fast.
+## Install
 
-## 🚅  Quick start
+`npm i @energy8/uikit`
 
-1.  **Create the application.**
+## Setup
 
-    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
+### Theme
 
-    ```shell
-    # Clone the template
-    npx degit chromaui/intro-storybook-react-template taskbox
-    ```
+Before using Energy8 UIkit, you need to provide the theme file to styled-component.
 
-1.  **Install the dependencies.**
+```
+import { ThemeProvider } from 'styled-components'
+import { Purple } from '@energy8/uikit'
+...
+<ThemeProvider theme={Purple}>...</ThemeProvider>
+```
 
-    Navigate into your new site’s directory and install the necessary dependencies.
+### Reset
 
-    ```shell
-    # Navigate to the directory
-    cd taskbox/
+Available global styled component.
 
-    # Install the dependencies
-    yarn
-    ```
+```
+import { GlobalStyle } from '@energy8/uikit'
+...
+<GlobalStyle />
+```
 
-1.  **Open the source code and start editing!**
+### Types
 
-    Open the `taskbox` directory in your code editor of choice and building your first component!
+This project is built with Typescript and export all the relevant types.
 
-1.  **Browse your stories!**
+## How to use the UIkit
 
-    Run `yarn storybook` to see your component's stories at `http://localhost:6006`
-
-## 🔎 What's inside?
-
-A quick look at the top-level files and directories included with this template.
-
-    .
-    ├── .storybook
-    ├── node_modules
-    ├── public
-    ├── src
-    ├── .env
-    ├── .gitignore
-    ├── LICENSE
-    ├── package.json
-    ├── yarn.lock
-    └── README.md
-
-
-1.  **`.storybook`**: This directory contains Storybook's [configuration](https://storybook.js.org/docs/react/configure/overview) files.
-
-2.  **`node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages).
-
-3.  **`public`**: This directory will contain the development and production build of the site.
-
-4.  **`src`**: This directory will contain all of the code related to what you will see on your application.
-
-5.  **`.env`**: Simple text configuration file for controlling the application's environment constants.
-
-6.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
-
-7. **`LICENSE`**: The template is licensed under the MIT licence.
-
-8. **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
-
-9. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
-
-10. **`README.md`**: A text file containing useful reference information about the project.
-
-## Contribute
-
-If you encounter an issue with the template, we encourage you to open an issue in this template's repository.
-
-## Learning Storybook
-
-1. Read our introductory tutorial at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/).
-2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
-2. See our official documentation at [Storybook](https://storybook.js.org/).
+If you want to use components from the UIkit, check the [Storybook documentation](https://627f725d1ff192004a269462-fyuhxspetg.chromatic.com/)
