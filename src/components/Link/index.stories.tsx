@@ -1,7 +1,7 @@
 import React from 'react';
 import { ComponentMeta } from '@storybook/react';
 
-import Link from './index';
+import { Link } from "./index";
 
 export default {
   title: 'Components/Link',
