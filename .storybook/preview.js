@@ -1,6 +1,6 @@
 import React from "react";
 import { withThemesProvider } from "themeprovider-storybook";
-import { GlobalStyle, Purple, Pink } from '../src/theme'
+import { GlobalStyle, Purple, Pink } from '../src'
 
 const globalDecorator = (StoryFn) => (
     <React.Fragment>
@@ -13,13 +13,11 @@ const themes = [
   {
     name: "Purple",
     backgroundColor: '#000000',
-    //backgroundColor: Purple.mainBackground,
     ...Purple,
   },
   {
     name: "Pink",
     backgroundColor: '#000000',
-    //backgroundColor: Pink.mainBackground,
     ...Pink,
   },
 ];

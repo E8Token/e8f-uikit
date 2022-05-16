@@ -17,8 +17,7 @@ export const Purple = {
     dropdownRowBackgroundLinearGradient: "linear-gradient(180deg, #6B38FF 0%, #6A17C9 100%);",
     btnBackgroundLinearGradientDisabled: "linear-gradient(180deg,#6B38FF80 0%,#6A17C9a6 100%)",
     cardBackgroundLinearGradient: "linear-gradient(180deg, #160539 0%, rgba(26, 8, 65, 0) 69.06%)",
-    cardBorderBackgroundLinearGradient: "linear-gradient(180deg, rgba(130, 82, 208, 0.5) 0%, rgba(0, 0, 0, 0) 100%)",
-    mainBackground: `url(assets/images/background.png)`,
+    cardBorderBackgroundLinearGradient: "linear-gradient(180deg, rgba(130, 82, 208, 0.5) 0%, rgba(0, 0, 0, 0) 100%)"
 }
 
 export const Pink = {
@@ -33,8 +32,7 @@ export const Pink = {
     dropdownRowBackgroundLinearGradient: "linear-gradient(180deg, #E8327C 0%, #C23C8E 100%)",
     btnBackgroundLinearGradientDisabled: "linear-gradient(180deg,#E8327C80 0%,#C23C8Ea6 100%)",
     cardBackgroundLinearGradient: "linear-gradient(180deg, #852961 0%, rgba(26, 8, 65, 0) 69.06%)",
-    cardBorderBackgroundLinearGradient: "linear-gradient(180deg, rgba(208 82 144 / 50%) 0%, rgba(0, 0, 0, 0) 100%)",
-    mainBackground: `url(assets/images/background.png)`,
+    cardBorderBackgroundLinearGradient: "linear-gradient(180deg, rgba(208 82 144 / 50%) 0%, rgba(0, 0, 0, 0) 100%)"
 }
 
 export const themeList = {
