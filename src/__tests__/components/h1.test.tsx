@@ -1,6 +1,6 @@
 import React from "react";
 import { renderWithTheme } from "../../testHelpers";
-import H1 from "../../components/H1/H1";
+import H1 from "../../components/H1";
 
 it("renders correctly", () => {
     const { asFragment } = renderWithTheme(
