@@ -1,5 +1,5 @@
 import React from 'react'
-import H2 from "./index";
+import H2 from "./H2";
 
 export default {
   title: 'Components/H2',

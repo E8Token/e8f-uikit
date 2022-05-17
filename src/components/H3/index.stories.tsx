@@ -1,5 +1,5 @@
 import React from 'react'
-import H3 from "./index";
+import H3 from "./H3";
 
 export default {
   title: 'Components/H3',
