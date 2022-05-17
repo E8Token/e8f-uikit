@@ -12,7 +12,7 @@ jobs:
           persist-credentials: false
       - name: Install 🔧
         run: | # Install npm packages
-          npm run build-storybook
+          npm install
       - name: Build 🔧
         run: | # build the Storybook files
           npm run build-storybook
