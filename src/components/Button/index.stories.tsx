@@ -6,7 +6,6 @@ import Button from './Button';
 export default {
   title: 'Components/Button',
   component: Button,
-  // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {
     isDisabled: {
       name: 'isDisabled',
