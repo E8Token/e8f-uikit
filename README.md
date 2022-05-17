@@ -37,4 +37,4 @@ This project is built with Typescript and export all the relevant types.
 
 ## How to use the UIkit
 
-If you want to use components from the UIkit, check the [Storybook documentation](https://627f725d1ff192004a269462-fyuhxspetg.chromatic.com/)
+If you want to use components from the UIkit, check the [Storybook documentation](https://e8token.github.io/e8f-uikit/)
