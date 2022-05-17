@@ -9,14 +9,13 @@
 # production
 /dist
 /storybook-static
+build-storybook.log
 
 # misc
 .DS_Store
 
 # ide
 .idea
-
-build-storybook.log
 
 # debug
 npm-debug.log*
