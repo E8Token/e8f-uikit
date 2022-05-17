@@ -1,3 +1,1 @@
-export { default } from './H2';
-export * from './H2';
-
+export { default as H2 } from "./H2";

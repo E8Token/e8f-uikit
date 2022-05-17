@@ -1,5 +1,5 @@
 import React from 'react';
-import Text, {TextProps} from "../Text";
+import {Text, TextProps} from "../Text";
 
 const H2: React.FC<TextProps> = ({ ...props }) => {
     return <Text

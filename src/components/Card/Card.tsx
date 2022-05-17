@@ -1,6 +1,9 @@
-import React from 'react';
+import React, {HTMLAttributes} from 'react';
 import Wrapper from './Wrapper';
-import {CardProps} from "./types";
+
+export interface CardProps extends HTMLAttributes<HTMLDivElement> {
+
+}
 
 const Card: React.FC<CardProps> = ({ children, ...props }) => {
     return (
