@@ -1,6 +1,6 @@
 {
   "name": "@energy8/uikit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Set of UI components for energy8 projects",
   "license": "MIT",
   "main": "dist/index.cjs.js",
