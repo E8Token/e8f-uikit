@@ -10,4 +10,6 @@ export interface TextProps extends SpaceProps, TypographyProps {
   letterSpacing?: string
 
   children: React.ReactNode
+  className?: string
+  onClick?: React.MouseEventHandler
 }
