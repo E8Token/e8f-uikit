@@ -10,7 +10,7 @@ it("renders correctly", () => {
         class="sc-dlnjPT iqDNCf"
       >
         <button
-          class="sc-gtssRu brERni"
+          class="sc-gtssRu koHwAZ"
         >
           Submit
         </button>
