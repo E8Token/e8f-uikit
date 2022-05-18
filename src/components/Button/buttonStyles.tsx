@@ -78,7 +78,7 @@ const buttonStyles = (props: any) => {
       }
 
       &:not(.button--without-hover):hover .outlined-wrapper::before {
-        content: none;
+        content: none !important;
       }
 
       &:not(.button--without-hover):hover .outlined-wrapper,
