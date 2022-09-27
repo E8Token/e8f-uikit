@@ -1,11 +1,28 @@
 import React, {Children, cloneElement, isValidElement} from 'react';
-import PropTypes from 'prop-types';
 
 import A from './A';
 import StyledButton from './StyledButton';
 import Wrapper from './Wrapper';
 
-const Button = (props: any) => {
+export interface ButtonProps {
+    handleRoute: string,
+    href: string,
+    id: string,
+    target: string,
+    className: string,
+    children?: React.ReactNode,
+    wrapperClassName: string,
+    isOutlined: boolean,
+    isDisabled: boolean,
+    isLoading: boolean,
+    withoutHover: boolean,
+    withoutPointer: boolean,
+    onClick: React.MouseEventHandler,
+    startIcon: React.ReactNode,
+    endIcon: React.ReactNode,
+}
+
+const Button: React.FC<ButtonProps> = ({ children, ...props }) => {
     const classNames = props.className ? [props.className] : []
     const iconExists = isValidElement(props.startIcon) || isValidElement(props.endIcon)
 
@@ -48,8 +65,8 @@ const Button = (props: any) => {
             }
             {
                 iconExists
-                    ? <span className={classNames.join(' ')}>{Children.toArray(props.children)}</span>
-                    : Children.toArray(props.children)
+                    ? <span className={classNames.join(' ')}>{Children.toArray(children)}</span>
+                    : Children.toArray(children)
             }
             {isValidElement(props.endIcon) &&
                 cloneElement(props.endIcon, {
@@ -98,23 +115,5 @@ const Button = (props: any) => {
         {button}
     </Wrapper>;
 }
-
-Button.propTypes = {
-    handleRoute: PropTypes.func,
-    href: PropTypes.string,
-    id: PropTypes.string,
-    target: PropTypes.string,
-    className: PropTypes.string,
-    children: PropTypes.node.isRequired,
-    wrapperClassName: PropTypes.string,
-    isOutlined: PropTypes.bool,
-    isDisabled: PropTypes.bool,
-    isLoading: PropTypes.bool,
-    withoutHover: PropTypes.bool,
-    withoutPointer: PropTypes.bool,
-    onClick: PropTypes.func,
-    startIcon: PropTypes.node,
-    endIcon: PropTypes.node,
-};
 
 export default Button;
