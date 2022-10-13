@@ -5,7 +5,7 @@ import StyledButton from './StyledButton';
 import Wrapper from './Wrapper';
 
 export interface ButtonProps {
-    handleRoute: string,
+    handleRoute?: string,
     href: string,
     id: string,
     target: string,
