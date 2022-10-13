@@ -5,21 +5,21 @@ import StyledButton from './StyledButton';
 import Wrapper from './Wrapper';
 
 export interface ButtonProps {
-    handleRoute?: string,
-    href: string,
-    id: string,
-    target: string,
-    className: string,
+    handleRoute?: React.ReactEventHandler,
+    href?: string,
+    id?: string,
+    target?: string,
+    className?: string,
     children?: React.ReactNode,
-    wrapperClassName: string,
-    isOutlined: boolean,
-    isDisabled: boolean,
-    isLoading: boolean,
-    withoutHover: boolean,
-    withoutPointer: boolean,
-    onClick: React.MouseEventHandler,
-    startIcon: React.ReactNode,
-    endIcon: React.ReactNode,
+    wrapperClassName?: string,
+    isOutlined?: boolean,
+    isDisabled?: boolean,
+    isLoading?: boolean,
+    withoutHover?: boolean,
+    withoutPointer?: boolean,
+    onClick?: React.MouseEventHandler,
+    startIcon?: React.ReactNode,
+    endIcon?: React.ReactNode,
 }
 
 const Button: React.FC<ButtonProps> = ({ children, ...props }) => {
